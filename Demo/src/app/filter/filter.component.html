@@ -1,0 +1,11 @@
+<div class="container">
+  <mat-form-field appearance="fill" class="mt-5">
+    <mat-label>Select by State</mat-label>
+    <mat-select [(value)]="selectedOption" (selectionChange)="onChange($event)">  
+      <mat-option value="None">All</mat-option>  
+      <mat-option value="Gujarat">Gujarat</mat-option>
+      <mat-option value="Maharastra">Maharastra</mat-option>
+      <mat-option value="Rajasthan">Rajasthan</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

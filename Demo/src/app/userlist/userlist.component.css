@@ -1,0 +1,30 @@
+input {
+    width: 60%;
+    padding: 8px 2px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+td {
+    border: 1px solid #dddddd;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

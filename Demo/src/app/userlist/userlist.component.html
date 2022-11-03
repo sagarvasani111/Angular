@@ -1,0 +1,21 @@
+<app-filter></app-filter>
+<div class="container">
+  
+    <h1 class="ms-5" style="color: red;"><b>Users List</b></h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Pincode</th>
+        <th>Organiztion</th>
+      </tr>
+      <tr *ngFor="let i of item">
+        <td>{{i.name}}</td>
+        <td>{{i.state}}</td>
+        <td>{{i.country}}</td>
+        <td>{{i.pincode}}</td>
+        <td>{{i.organization}}</td>
+      </tr>
+    </table>
+  </div>
